@@ -1,0 +1,107 @@
+:root{
+  --black: #000;
+  --darkgrey:#333333;
+  --blackOak:#4F4F4F;
+  --darkwhite:#BDBDBD;
+  --grey:#828282;
+  --violet:#702283;
+  --font-v: 'helveticaneuecyr';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/helveticaneuecyr-black.eot') format('eot'),
+        url('../app/assets/fonts/helveticaneuecyr-black.ttf') format('truetype'),
+        url('../app/assets/fonts/helveticaneuecyr-black.woff') format('woff'),
+        url('../app/assets/fonts/helveticaneuecyr-black.woff2') format('woff2');
+        font-weight: 900;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/helveticaneuecyr-bold.eot') format('eot'),
+        url('../app/assets/fonts/helveticaneuecyr-bold.ttf') format('truetype'),
+        url('../app/assets/fonts/helveticaneuecyr-bold.woff') format('woff'),
+        url('../app/assets/fonts/helveticaneuecyr-bold.woff2') format('woff2');
+        font-weight: 700;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/helveticaneuecyr-bolditalic.eot') format('eot'),
+        url('../app/assets/fonts/helveticaneuecyr-bolditalic.ttf') format('truetype'),
+        url('../app/assets/fonts/helveticaneuecyr-bolditalic.woff') format('woff'),
+        url('../app/assets/fonts/helveticaneuecyr-bolditalic.woff2') format('woff2');
+        font-weight: 700;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/helveticaneuecyr-light.eot') format('eot'),
+        url('../app/assets/fonts/helveticaneuecyr-light.ttf') format('truetype'),
+        url('../app/assets/fonts/helveticaneuecyr-light.woff') format('woff'),
+        url('../app/assets/fonts/helveticaneuecyr-light.woff2') format('woff2');
+        font-weight: 300;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/helveticaneuecyr-medium.eot') format('eot'),
+        url('../app/assets/fonts/helveticaneuecyr-medium.ttf') format('truetype'),
+        url('../app/assets/fonts/helveticaneuecyr-medium.woff') format('woff'),
+        url('../app/assets/fonts/helveticaneuecyr-medium.woff2') format('woff2');
+        font-weight: 500;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/helveticaneuecyr-mediumitalic.eot') format('eot'),
+        url('../app/assets/fonts/helveticaneuecyr-mediumitalic.ttf') format('truetype'),
+        url('../app/assets/fonts/helveticaneuecyr-mediumitalic.woff') format('woff'),
+        url('../app/assets/fonts/helveticaneuecyr-mediumitalic.woff2') format('woff2');
+        font-weight: 500;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/helveticaneuecyr-roman.eot') format('eot'),
+        url('../app/assets/fonts/helveticaneuecyr-roman.ttf') format('truetype'),
+        url('../app/assets/fonts/helveticaneuecyr-roman.woff') format('woff'),
+        url('../app/assets/fonts/helveticaneuecyr-roman.woff2') format('woff2');
+        font-weight: 400;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/RussoOne.eot') format('eot'),
+        url('../app/assets/fonts/RussoOne.ttf') format('truetype'),
+        url('../app/assets/fonts/RussoOne.woff') format('woff'),
+        url('../app/assets/fonts/RussoOne.woff2') format('woff2');
+        font-weight: 400;
+}
+@font-face {
+  font-family: 'helveticaneuecyr';
+  src:  url('../app/assets/fonts/Marsden-Ex-Heavy.eot') format('eot'),
+        url('../app/assets/fonts/Marsden-Ex-Heavy.ttf') format('truetype'),
+        url('../app/assets/fonts/Marsden-Ex-Heavy.woff') format('woff'),
+        url('../app/assets/fonts/Marsden-Ex-Heavy.woff2') format('woff2');
+        font-weight: 400;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'helveticaneuecyr'!important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+ul,h1,h2,h3,h4,h5,h6{
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+.container{
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
